@@ -4,19 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="ok">
+    <list default="true" id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/shortProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/DataRequestServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoadAutomaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoadAutomaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Home.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductSeverlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductSeverlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/loadHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/loadHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/bang-gia-xe-481805n.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/bang-gia-xe-481805n.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +46,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -60,33 +79,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AutomakerDAO.executor": "Run",
-    "Application.ProductDAO.executor": "Run",
-    "Application.UserDAO.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Smart Tomcat.TomcatTheHieu.executor": "Run",
-    "Smart Tomcat.Unnamed (1).executor": "Run",
-    "Smart Tomcat.Unnamed.executor": "Run",
-    "Smart Tomcat.tomcat new.executor": "Run",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "HieuNT",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/Fruit",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AutomakerDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserDAO.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.TomcatTheHieu.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed (1).executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.tomcat new.executor&quot;: &quot;Run&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;HieuNT&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/MigrateProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.migrateproject.controller" />
@@ -244,6 +263,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />

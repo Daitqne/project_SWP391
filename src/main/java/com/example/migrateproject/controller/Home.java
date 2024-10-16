@@ -42,6 +42,7 @@ public class Home extends HttpServlet {
                     AutomakerDAO dao= new AutomakerDAO();
                     ProductDAO productDAO=new ProductDAO();
                     ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
+                    request.setAttribute("listAutomaker",listAutomaker);
                     ArrayList<GetTopProductsWithFirstAttribute> listTopProductFrist=productDAO.getTopProductsWithFirstAttribute();
                     request.setAttribute("listTopProductFrist",listTopProductFrist);
                     request.getRequestDispatcher("/hondaotog3.com/index.jsp").forward(request,response);

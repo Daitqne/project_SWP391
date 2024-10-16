@@ -14,4 +14,6 @@ public interface IProduct {
     ArrayList<Product> getTop4HondaAccord();
     ArrayList<Product> getAllProduct();
     ArrayList<Product> getAllProductByAutumakerId(int id);
+    int countProductByAutomakerId(int automaker_id);
+    ArrayList<Product> phanTrang(int automaker_id,int indexSearch);
 }
