@@ -16,4 +16,6 @@ public interface IProduct {
     ArrayList<Product> getAllProductByAutumakerId(int id);
     int countProductByAutomakerId(int automaker_id);
     ArrayList<Product> phanTrang(int automaker_id,int indexSearch);
+    List<Product> getProductPaginationByAutoMakerId(int automaker_id, int offset, int noOfRecords, String orderBy);
+    int getTotalRecordsProductByAutoMakerId(int automaker_id);
 }

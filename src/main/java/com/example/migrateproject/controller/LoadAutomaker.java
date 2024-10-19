@@ -76,13 +76,6 @@ public class LoadAutomaker extends HttpServlet {
         request.getRequestDispatcher("hondaotog3.com/index.jsp").forward(request,response);
     }
 
-    private void loadProductPageData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        AutomakerDAO dao= new AutomakerDAO();
-        ProductDAO productDAO=new ProductDAO();
-        ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
-        request.setAttribute("listAutomaker",listAutomaker);
-        request.getRequestDispatcher("hondaotog3.com/san-pham.jsp").forward(request,response);
-    }
 
     private void loadHomePageData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         AutomakerDAO dao= new AutomakerDAO();

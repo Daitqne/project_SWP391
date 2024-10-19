@@ -5,7 +5,9 @@ import com.example.migrateproject.model.Product;
 import dto.GetTopProductsWithFirstAttribute;
 
 import java.sql.CallableStatement;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -170,6 +172,59 @@ public class ProductDAO extends DBContext implements IProduct {
 
         }
         return list;
+    }
+
+    @Override
+    public List<Product> getProductPaginationByAutoMakerId(int autoMakerId, int offset, int noOfRecords, String orderBy) {
+        List<Product> list = new ArrayList<>();
+        PreparedStatement preparedStatement;
+        try {
+            String query = "SELECT * FROM Product where Product.automaker_id= ?";
+            if (orderBy == null || orderBy.isEmpty()) {
+                orderBy = "product_id";
+            }
+            query += " ORDER BY " + orderBy;
+            query += " OFFSET ? ROWS FETCH NEXT ? ROWS ONLY";
+            preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setInt(1, autoMakerId);
+            preparedStatement.setInt(2, offset);
+            preparedStatement.setInt(3, noOfRecords);
+            ResultSet rs = preparedStatement.executeQuery();
+
+            while (rs.next()) {
+                list.add(new Product(rs.getInt("product_id"),rs.getString("product_name"),
+                        rs.getInt("region_id"),rs.getInt("automaker_id"),
+                        rs.getInt("quantity"),rs.getString("product_img"),
+                        rs.getFloat("price"),rs.getString("desciption")));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return list;
+    }
+
+    @Override
+    public int getTotalRecordsProductByAutoMakerId(int automaker_id) {
+        int totalRecords = 0;
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        try {
+            String query = "SELECT COUNT(*) FROM Product WHERE automaker_id = ?";
+            preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setInt(1, automaker_id);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                totalRecords = resultSet.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return totalRecords;
     }
 
     public static void main(String[] args) {

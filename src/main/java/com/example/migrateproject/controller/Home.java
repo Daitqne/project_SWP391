@@ -4,9 +4,11 @@ import java.io.*;
 import java.util.ArrayList;
 
 import com.example.migrateproject.dao.AutomakerDAO;
+import com.example.migrateproject.dao.CustomerDAO;
 import com.example.migrateproject.dao.ProductDAO;
 import com.example.migrateproject.model.Automaker;
 import com.example.migrateproject.model.User;
+import dto.Customer;
 import dto.GetTopProductsWithFirstAttribute;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -59,7 +61,10 @@ public class Home extends HttpServlet {
                 break;
             case 3:
                 try {
-
+                    CustomerDAO customerDAO=new CustomerDAO();
+                    ArrayList<Customer> listCustomer=customerDAO.getAllCustomer();
+                    request.setAttribute("listCustomer",listCustomer);
+                    request.getRequestDispatcher("/hondaotog3.com/accountList.jsp").forward(request, response);
                 }catch (Exception ex){
                     request.getRequestDispatcher("/hondaotog3.com/login.jsp").forward(request, response);
                 }

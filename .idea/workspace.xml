@@ -5,31 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/shortProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/accountList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/employList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/orderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/productList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/loginGoogle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoadAutomaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoadAutomaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductSeverlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductSeverlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-city-rs-1287611.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-g-2024-1438409.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-g-2024-1438409.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-l-2024-1438408.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/headerAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-l-awd-2024-1438407.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/accountList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Add new Servlet" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Add new Servlet" />
       </list>
     </option>
   </component>
@@ -82,6 +82,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AutomakerDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomerDAO.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProductDAO.executor&quot;: &quot;Run&quot;,
     &quot;Application.UserDAO.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -94,7 +95,7 @@
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;HieuNT&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/MigrateProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project/MigrateProject/src/main/webapp/hondaotog3.com&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -107,6 +108,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\MigrateProject\src\main\webapp\hondaotog3.com" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.migrateproject.controller" />
     </key>
@@ -114,6 +118,19 @@
   <component name="RunManager" selected="Smart Tomcat.tomcat new">
     <configuration name="AutomakerDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.AutomakerDAO" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.CustomerDAO" />
       <module name="MigrateProject" />
       <extension name="coverage">
         <pattern>
@@ -232,13 +249,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.AutomakerDAO" />
+      <item itemvalue="Application.CustomerDAO" />
       <item itemvalue="Application.ProductDAO" />
-      <item itemvalue="Smart Tomcat.tomcat new" />
       <item itemvalue="Smart Tomcat.TomcatTheHieu" />
       <item itemvalue="Smart Tomcat.Unnamed" />
+      <item itemvalue="Smart Tomcat.tomcat new" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerDAO" />
         <item itemvalue="Application.ProductDAO" />
         <item itemvalue="Application.AutomakerDAO" />
       </list>
@@ -278,16 +297,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Logout.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
