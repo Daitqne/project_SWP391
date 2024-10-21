@@ -3,7 +3,7 @@
     Created on : Sep 19, 2024, 1:55:01 AM
     Author     : PC
 --%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE jsp>
 <jsp>
@@ -34,7 +34,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../cloud.gianhangvn.com/css/common.min2455.css?v15">
     <link rel="stylesheet" href="../cloud.gianhangvn.com/templates/0012/skin02/css/style.css">
-
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #d3d3d3; /* Đen */
+            color: white; /* Chữ trắng cho nền đen */
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff; /* Trắng */
+            color: black; /* Chữ đen cho nền trắng */
+        }
+        th {
+            background-color: #EBEBEB;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     
@@ -177,89 +199,34 @@
 
 <h3 style="text-align: justify;"><a id="laisuatvay"><span style="color:#0066ff;"><span style="font-size:18px;"><strong>5)&nbsp;Lãi suất vay mua xe ôtô của các ngân hàng mới nhất</strong></span></span></a></h3>
 
-<table border="1" cellpadding="0" cellspacing="0" width="100%">
-	<tbody>
-		<tr style="background: #EBEBEB;">
-			<td colspan="4" rowspan="1" style="text-align: center"><strong>Bảng lãi suất vay mua ô tô năm 2023</strong></td>
-		</tr>
-		<tr>
-			<td style="text-align: center;"><strong>Ngân hàng</strong></td>
-			<td style="text-align: center;"><strong>Lãi suất</strong><br />
-			<strong>năm đầu</strong></td>
-			<td style="text-align: center;"><strong>Mức vay tối đa</strong><br />
-			<strong>%/ giá trị xe</strong></td>
-			<td style="text-align: center;"><strong>Thời gian vay</strong><br />
-			<strong>(Tháng)</strong></td>
-		</tr>
-		<tr style="background: #EBEBEB;">
-			<td style="text-align: center;">Ngân hàng VIB bank</td>
-			<td style="text-align: center;">7.90%</td>
-			<td style="text-align: center;">80%</td>
-			<td style="text-align: center;">84</td>
-		</tr>
-		<tr>
-			<td style="text-align: center;">Ngân hàng Seabank</td>
-			<td style="text-align: center;">9.40%</td>
-			<td style="text-align: center;">80%</td>
-			<td style="text-align: center;">84</td>
-		</tr>
-		<tr style="background: #EBEBEB;">
-			<td style="text-align: center;">Ngân hàng TPBank</td>
-			<td style="text-align: center;">7.60%</td>
-			<td style="text-align: center;">80%</td>
-			<td style="text-align: center;">84</td>
-		</tr>
-		<tr>
-			<td style="text-align: center;">Ngân hàng Techcombank</td>
-			<td style="text-align: center;">7.40%</td>
-			<td style="text-align: center;">80%</td>
-			<td style="text-align: center;">84</td>
-		</tr>
-		<tr style="background: #EBEBEB;">
-			<td style="text-align: center;">Ngân hàng Vietcombank</td>
-			<td style="text-align: center;">9.0%</td>
-			<td style="text-align: center;">80%</td>
-			<td style="text-align: center;">60</td>
-		</tr>
-		<tr>
-			<td style="text-align: center;"><span style="text-align: center;">Ngân hàng SHB</span></td>
-			<td style="text-align: center;">7.9%</td>
-			<td style="text-align: center;"><span style="text-align: center;">75%</span></td>
-			<td style="text-align: center;">84</td>
-		</tr>
-		<tr style="background: #EBEBEB;">
-			<td style="text-align: center;">Ngân hàng VietinBank</td>
-			<td style="text-align: center;">8.99%</td>
-			<td style="text-align: center;">80%</td>
-			<td style="text-align: center;">60</td>
-		</tr>
-		<tr>
-			<td style="text-align: center;">Ngân hàng VPBank</td>
-			<td style="text-align: center;">7.90%</td>
-			<td style="text-align: center;">70%</td>
-			<td style="text-align: center;"><span style="text-align: center;">84</span></td>
-		</tr>
-		<tr style="background: #EBEBEB;">
-			<td style="text-align: center;"><span style="text-align: center;">Ngân hàng OCB</span></td>
-			<td style="text-align: center;">6.99%</td>
-			<td style="text-align: center;"><span style="text-align: center; background-color: rgb(235, 235, 235);">80%</span></td>
-			<td style="text-align: center;"><span style="text-align: center;">84</span></td>
-		</tr>
-		<tr>
-			<td style="text-align: center;"><span style="text-align: center; background-color: rgb(235, 235, 235);">Ngân hàng Bảo Việt Bank</span></td>
-			<td style="text-align: center;">8.04%</td>
-			<td style="text-align: center;"><span style="text-align: center; background-color: rgb(235, 235, 235);">80%</span></td>
-			<td style="text-align: center;"><span style="text-align: center;">84</span></td>
-		</tr>
-		<tr style="background: #EBEBEB;">
-			<td style="text-align: center;">&nbsp;</td>
-			<td style="text-align: center;">&nbsp;</td>
-			<td style="text-align: center;">&nbsp;</td>
-			<td style="text-align: center;">
-			<p>&nbsp;</p>
-			</td>
-		</tr>
-	</tbody>
+<table>
+    <thead>
+        <tr>
+            <th colspan="4" rowspan="1" style="text-align: center"><strong>Bảng lãi suất vay mua ô tô năm 2024</strong></th>
+        </tr>
+        <tr>
+            <th style="text-align: center;"><strong>Ngân hàng</strong></th>
+            <th style="text-align: center;"><strong>Lãi suất</strong><br /><strong>năm đầu</strong></th>
+            <th style="text-align: center;"><strong>Mức vay tối đa</strong><br /><strong>%/ giá trị xe</strong></th>
+            <th style="text-align: center;"><strong>Thời gian vay</strong><br /><strong>(Tháng)</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <c:forEach items="${listBank}" var="bank">
+        <tr>
+            <td>${bank.bank_name}</td>
+            <td>${bank.interestRateFirstYear}%</td>
+            <td>${bank.maxLoanPercentage}%</td>
+            <td>${bank.loanTermMonths}</td>
+        </tr>
+        </c:forEach>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
 </table>
 
 <p style="text-align: center;"><span style="font-size:12px;"><em>Danh sách lãi suất cho vay mua ô tô trả góp tại các ngân hàng năm</em></span></p>

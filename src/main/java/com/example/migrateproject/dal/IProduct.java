@@ -11,6 +11,8 @@ public interface IProduct {
     ArrayList<Product> getTop4HondaCivic();
     ArrayList<Product> getTop4HondaBRV();
     ArrayList<Product> getTop4HondaCRV();
+    ArrayList<Product> getTop4HondaCity();
+    ArrayList<Product> getTop4HondaHRV();
     ArrayList<Product> getTop4HondaAccord();
     ArrayList<Product> getAllProduct();
     ArrayList<Product> getAllProductByAutumakerId(int id);

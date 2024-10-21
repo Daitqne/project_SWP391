@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import com.example.migrateproject.dao.CustomerDAO;
 import com.example.migrateproject.model.User;
-import dto.Customer;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
@@ -20,14 +19,14 @@ public class accountList extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        HttpSession session=request.getSession();
-        User user=(User) session.getAttribute("user");
-        if(user==null){
-            request.getRequestDispatcher("/hondaotog3.com/login.jsp").forward(request,response);
-        }
-        CustomerDAO customerDAO=new CustomerDAO();
-        ArrayList<Customer> listCustomer=customerDAO.getAllCustomer();
-        request.setAttribute("listCustomer",listCustomer);
+//        HttpSession session=request.getSession();
+//        User user=(User) session.getAttribute("user");
+//        if(user==null){
+//            request.getRequestDispatcher("/hondaotog3.com/login.jsp").forward(request,response);
+//        }
+//        CustomerDAO customerDAO=new CustomerDAO();
+//        ArrayList<Customer> listCustomer=customerDAO.getAllCustomer();
+//        request.setAttribute("listCustomer",listCustomer);
     }
 
     public void destroy() {

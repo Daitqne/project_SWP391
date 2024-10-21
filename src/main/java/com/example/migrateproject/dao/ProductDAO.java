@@ -95,6 +95,54 @@ public class ProductDAO extends DBContext implements IProduct {
     }
 
     @Override
+    public ArrayList<Product> getTop4HondaCity() {
+        ArrayList<Product> list=new ArrayList<>();
+        try{
+            String query="select top 4 *from Product\n" +
+                    "where automaker_id=1";
+            PreparedStatement ps=connection.prepareStatement(query);
+            ResultSet rs=ps.executeQuery();
+            while(rs.next()){
+                list.add(new Product(rs.getInt("product_id"),
+                        rs.getString("product_name"),
+                        rs.getInt("region_id"),
+                        rs.getInt("automaker_id"),
+                        rs.getInt("quantity"),
+                        rs.getString("product_img"),
+                        rs.getFloat("price"),
+                        rs.getString("desciption")));
+            }
+        }catch (Exception ex){
+
+        }
+        return list;
+    }
+
+    @Override
+    public ArrayList<Product> getTop4HondaHRV() {
+        ArrayList<Product> list=new ArrayList<>();
+        try{
+            String query="select top 4 *from Product\n" +
+                    "where automaker_id=4";
+            PreparedStatement ps=connection.prepareStatement(query);
+            ResultSet rs=ps.executeQuery();
+            while(rs.next()){
+                list.add(new Product(rs.getInt("product_id"),
+                        rs.getString("product_name"),
+                        rs.getInt("region_id"),
+                        rs.getInt("automaker_id"),
+                        rs.getInt("quantity"),
+                        rs.getString("product_img"),
+                        rs.getFloat("price"),
+                        rs.getString("desciption")));
+            }
+        }catch (Exception ex){
+
+        }
+        return list;
+    }
+
+    @Override
     public ArrayList<Product> getTop4HondaAccord() {
         return null;
     }
@@ -229,9 +277,7 @@ public class ProductDAO extends DBContext implements IProduct {
 
     public static void main(String[] args) {
         ProductDAO dao=new ProductDAO();
-        ArrayList<Product> list=dao.phanTrang(1,1);
-        int count= dao.countProductByAutomakerId(1);
-        System.out.println(count);
+        ArrayList<Product> list=dao.getTop4HondaCity();
         for(Product g:list){
             System.out.println(g.getProductName());
         }

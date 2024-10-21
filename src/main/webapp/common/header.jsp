@@ -53,10 +53,10 @@
             </ul>
         </li>
         <li class="">
-            <a href="/hondaotog3.com/bang-gia-xe-481805n.jsp" title="Bảng giá xe">Bảng giá xe</a>
+            <a href="../productPrice-servlet" title="Bảng giá xe">Bảng giá xe</a>
         </li>
         <li class="">
-            <a href="/hondaotog3.com/mua-xe-tra-gop-481803n.jsp" title="Mua xe trả góp">Mua xe trả góp</a>
+            <a href="../productInstallment-servlet" title="Mua xe trả góp">Mua xe trả góp</a>
         </li>
         <li class="">
             <a href="/hondaotog3.com/tin-tuc-481806t.jsp" title="Tin tức">Tin tức</a>

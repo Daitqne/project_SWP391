@@ -167,26 +167,7 @@
             
         </div>
     </section>
-    <section class="pathpage group">
-        <div class="container group">
-                    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Trang chủ" itemtype="https://schema.org/Thing" itemprop="item" href="index.jsp"><span itemprop="name"><span data-lang='bc_home'>Trang chủ</span></span></a>
-                    <meta itemprop="position" content="1">
-                </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Sản phẩm" itemtype="https://schema.org/Thing" itemprop="item" href="san-pham.jsp"><span itemprop="name">Sản phẩm</span></a>
-                    <meta itemprop="position" content="2">
-                </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Honda HR-V" itemtype="https://schema.org/Thing" itemprop="item" href="honda-hrv-481811s.jsp"><span itemprop="name">Honda HR-V</span></a>
-                    <meta itemprop="position" content="3">
-                </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Honda HR-V G" itemtype="https://schema.org/Thing" itemprop="item" href="honda-hrv-g-1410105.jsp"><span itemprop="name">Honda HR-V G</span></a>
-                    <meta itemprop="position" content="4">
-                </li>
-        </ol>
-
-        </div>
-    </section>
+     <jsp:include page="/common/header.jsp" />
     <section class="main group">
         <div class="container group">
             <div class="content-container">
@@ -488,40 +469,7 @@
         </div>
     </div>
     </section>
-    <section class="cd-nav">
-        <ul class="cd-primary-nav" id="cd-primary-nav">
-                <li class="">
-                                <a href="index.jsp" title="Trang chủ">Trang chủ</a>
-                    </li><li class="has-children">
-                                <a href="san-pham.jsp" title="Sản phẩm">Sản phẩm</a>
-            <ul class="cd-secondary-nav is-hidden">
-                <li class="go-back"><a href="javascript:void(0);">Sản phẩm</a></li>
-                <li class="see-all"><a href="san-pham.jsp">Tất cả danh mục Sản phẩm</a></li>
-                <li class="">
-                            <a href="honda-city-481809s.jsp" title="Honda City"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-city-2166737j31185.jpg" /></center><h2 class="sub-title-menu center">Honda City</h2></a>
-                    </li><li class="">
-                            <a href="honda-br-v-506977s.jsp" title="Honda BR-V"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-br-v-2445204j31185.jpg" /></center><h2 class="sub-title-menu center">Honda BR-V</h2></a>
-                    </li><li class="">
-                            <a href="honda-civic-481810s.jsp" title="Honda Civic"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-civic-2166736j31185.jpg" /></center><h2 class="sub-title-menu center">Honda Civic</h2></a>
-                    </li><li class="">
-                            <a href="honda-hrv-481811s.jsp" title="Honda HR-V"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-hrv-2166731j31185.jpg" /></center><h2 class="sub-title-menu center">Honda HR-V</h2></a>
-                    </li><li class="">
-                            <a href="honda-crv2023-481812s.jsp" title="Honda CR-V"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-crv2023-2524420j31185.jpg" /></center><h2 class="sub-title-menu center">Honda CR-V</h2></a>
-                    </li><li class="">
-                            <a href="honda-accord-481813s.jsp" title="Honda Accord"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-accord-2166734j31185.jpg" /></center><h2 class="sub-title-menu center">Honda Accord</h2></a>
-                    </li>
-            </ul>
-                    </li><li class="">
-                                <a href="bang-gia-xe-481805n.jsp" title="Bảng giá xe">Bảng giá xe</a>
-                    </li><li class="">
-                                <a href="mua-xe-tra-gop-481803n.jsp" title="Mua xe trả góp">Mua xe trả góp</a>
-                    </li><li class="">
-                                <a href="tin-tuc-481806t.jsp" title="Tin tức">Tin tức</a>
-                    </li><li class="">
-                                <a href="lien-he.jsp" title="Liên hệ">Liên hệ</a>
-                    </li>
-            </ul>
-    </section>
+
     <p id="back-top"><a href="javascript:void(0);" title="Scroll To Top"><i class="fa fa-angle-up"></i>Top</a></p>
         <a class="btn-call-now" href="tel:0926278500" title="Gọi ngay cho chúng tôi"><em class="fa fa-phone">&nbsp;</em></a>
         <a class="btn-shopping-cart" href="gio-hang.jsp"><em class="fa fa-shopping-cart">&nbsp;</em><span class="btn-shopping-cart-number">(<span class="total-product" data-field="number">0</span>)</span></a>

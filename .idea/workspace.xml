@@ -5,31 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/accountList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/employList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/orderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/productList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/loginGoogle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/requestPassWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ITokenForgetPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/TokenForgetPasswordDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/TokenForgetPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/resetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/accountList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/AdminSeverlet/accountList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoadAutomaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoadAutomaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductSeverlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductSeverlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/productInstallment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/productInstallment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/productPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/productPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/shortProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/BankDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/BankDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-city-rs-1287611.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/productList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-g-2024-1438409.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-g-2024-1438409.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-l-2024-1438408.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/headerAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-cr-v-1-5l-l-awd-2024-1438407.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/accountList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/validate/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/validate/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-civic-1-5l-rs-1287616.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/requestPassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-hr-v-l-trang-ngoc-do-1287623.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/risetPassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-hrv-g-1410105.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda-hrv-g-1410105.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/muaXeTraGop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/muaXeTraGop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/productPrice.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/productPrice.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +105,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AutomakerDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankDAO.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomerDAO.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProductDAO.executor&quot;: &quot;Run&quot;,
     &quot;Application.UserDAO.executor&quot;: &quot;Run&quot;,
@@ -115,9 +139,22 @@
       <recent name="com.example.migrateproject.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Smart Tomcat.tomcat new">
+  <component name="RunManager" selected="Application.Validate">
     <configuration name="AutomakerDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.AutomakerDAO" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.BankDAO" />
       <module name="MigrateProject" />
       <extension name="coverage">
         <pattern>
@@ -148,6 +185,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Validate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.validate.Validate" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.validate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,7 +298,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Validate" />
       <item itemvalue="Application.AutomakerDAO" />
+      <item itemvalue="Application.BankDAO" />
       <item itemvalue="Application.CustomerDAO" />
       <item itemvalue="Application.ProductDAO" />
       <item itemvalue="Smart Tomcat.TomcatTheHieu" />
@@ -257,8 +309,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Validate" />
         <item itemvalue="Application.CustomerDAO" />
         <item itemvalue="Application.ProductDAO" />
+        <item itemvalue="Application.BankDAO" />
         <item itemvalue="Application.AutomakerDAO" />
       </list>
     </recent_temporary>

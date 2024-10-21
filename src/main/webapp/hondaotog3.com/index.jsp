@@ -206,7 +206,7 @@
                                                                         src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                                                                         class="lazyload" data-src=""/></p>
 
-                                    <h2 style="text-align: center;"><span style="font-size:24px;">Phụ trách kinh doanh: MR Hieu}</span>
+                                    <h2 style="text-align: center;"><span style="font-size:24px;">Phụ trách kinh doanh: MR Hieu</span>
                                     </h2>
 
                                     <h2 style="text-align: center;"><span style="color:#FF0000;"><span

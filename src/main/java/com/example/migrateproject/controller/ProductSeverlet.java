@@ -73,6 +73,7 @@ public class ProductSeverlet extends HttpServlet {
             } catch (Exception ex) {
 
             }
+
         }
     }
 

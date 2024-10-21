@@ -40,7 +40,7 @@
                         <span>or use your account</span>
                         <input type="text" placeholder="Enter the user name:" name="username"/>
                         <input type="password" placeholder="Password" name="password"/>
-                    <a href="#">Forgot your password?</a>
+                    <a href="requestPassword.jsp">Forgot your password?</a>
                     <button>Sign In</button>      
                      <%
         String errorMessage = (String) request.getAttribute("errorMessageUserName");
