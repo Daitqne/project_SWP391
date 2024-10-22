@@ -9,8 +9,28 @@
         <servlet-class>controller.SignupServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>EmployeeServlet</servlet-name>
-        <servlet-class>controller.EmployeeServlet</servlet-class>
+        <servlet-name>ViewEmployeeServlet</servlet-name>
+        <servlet-class>controller.ViewEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <servlet-class>controller.AddEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <servlet-class>controller.UpdateEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <servlet-class>controller.DeleteEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchEmployeeServlet</servlet-name>
+        <servlet-class>controller.SearchEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EmployeeListServlet</servlet-name>
+        <servlet-class>controller.EmployeeListServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CategoryCarServlet</servlet-name>
@@ -21,7 +41,27 @@
         <url-pattern>/signup</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>EmployeeServlet</servlet-name>
-        <url-pattern>/employees</url-pattern>
+        <servlet-name>ViewEmployeeServlet</servlet-name>
+        <url-pattern>/ViewEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <url-pattern>/AddEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateEmployeeServlet</servlet-name>
+        <url-pattern>/UpdateEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteEmployeeServlet</servlet-name>
+        <url-pattern>/DeleteEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchEmployeeServlet</servlet-name>
+        <url-pattern>/SearchEmployeeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmployeeListServlet</servlet-name>
+        <url-pattern>/EmployeeListServlet</url-pattern>
     </servlet-mapping>
 </web-app>

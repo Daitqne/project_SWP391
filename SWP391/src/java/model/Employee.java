@@ -5,6 +5,7 @@
 package model;
 
 public class Employee {
+
     private int employeeId;
     private int userId;
     private String firstName;
@@ -12,11 +13,21 @@ public class Employee {
     private String phone;
     private String email;
     private int departmentId;
+    private String departmentName;
 
     public Employee() {
     }
 
-    public Employee(int employeeId, int userId, String firstName, String lastName, String phone, String email, int departmentId) {
+//    public Employee(int employeeId, int userId, String firstName, String lastName, String phone, String email, int departmentId) {
+//        this.employeeId = employeeId;
+//        this.userId = userId;
+//        this.firstName = firstName;
+//        this.lastName = lastName;
+//        this.phone = phone;
+//        this.email = email;
+//        this.departmentId = departmentId;
+//    }
+    public Employee(int employeeId, int userId, String firstName, String lastName, String phone, String email, int departmentId, String departmentName) {
         this.employeeId = employeeId;
         this.userId = userId;
         this.firstName = firstName;
@@ -24,6 +35,7 @@ public class Employee {
         this.phone = phone;
         this.email = email;
         this.departmentId = departmentId;
+        this.departmentName = departmentName;
     }
 
     public int getEmployeeId() {
@@ -81,6 +93,25 @@ public class Employee {
     public void setDepartmentId(int departmentId) {
         this.departmentId = departmentId;
     }
-    
-    
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public void setDepartmentName(String departmentName) {
+        this.departmentName = departmentName;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{"
+                + "employeeId=" + employeeId
+                + ", firstName='" + firstName + '\''
+                + ", lastName='" + lastName + '\''
+                + ", phone='" + phone + '\''
+                + ", email='" + email + '\''
+                + ", departmentName=" + departmentName
+                + '}';
+    }
+
 }

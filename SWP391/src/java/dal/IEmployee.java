@@ -5,6 +5,7 @@
 package dal;
 
 import java.util.List;
+import model.Department;
 import model.Employee;
 
 /**
@@ -16,4 +17,13 @@ public interface IEmployee {
     void addEmployee(Employee employee);
     void updateEmployee(Employee employee);
     void deleteEmployee(int employeeId);
+    List<Employee> getEmployeesByPage(int offset, int recordsPerPage);
+    int getTotalEmployees();
+    List<Employee> searchEmployees(String query);
+    List<Employee> filterEmployeesByDepartment(String departmentId);
+    List<Employee> searchAndFilterEmployees(String query, String departmentId);
+    boolean isEmailExists(String email);
+    boolean isPhoneExists(String phone);
+    Employee getEmployeesByID(int employeeId);
+    List<Department> getAllDepartments();
 }
