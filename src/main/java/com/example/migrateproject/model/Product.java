@@ -8,6 +8,29 @@ public class Product {
     private int quantity;
     private String linkVideo;
     private float price;
+    private String description;
+
+    public Product(int productId, String productName, int regionId, int automakerId, int quantity, String linkVideo, float price, String description) {
+        this.productId = productId;
+        this.productName = productName;
+        this.regionId = regionId;
+        this.automakerId = automakerId;
+        this.quantity = quantity;
+        this.linkVideo = linkVideo;
+        this.price = price;
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Product() {
+    }
 
     public Product(int productId, String productName, int regionId, int automakerId, int quantity, String linkVideo, float price) {
         this.productId = productId;
@@ -17,9 +40,6 @@ public class Product {
         this.quantity = quantity;
         this.linkVideo = linkVideo;
         this.price = price;
-    }
-
-    public Product() {
     }
 
     public int getProductId() {

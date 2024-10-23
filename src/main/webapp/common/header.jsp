@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 <head lang="vi" xml:lang="vi">
     <meta charset="utf-8"/>
@@ -36,27 +36,27 @@
 <section class="cd-nav">
     <ul class="cd-primary-nav" id="cd-primary-nav">
         <li class="">
-            <a href="LoadAutomaker?load=home" title="Trang chủ">Trang chủ</a>
+            <a href="../LoadAutomaker" title="Trang chủ">Trang chủ</a>
         </li>
         <li class="has-children">
-            <a href="LoadAutomaker?load=product" title="Sản phẩm">Sản Phẩms</a>
+            <a href="LoadAutomaker" title="Sản phẩm">Sản Phẩms</a>
             <ul class="cd-secondary-nav is-hidden">
                 <li class="go-back"><a href="javascript:void(0);">Sản phẩm</a></li>
                 <li class="see-all"><a href="san-pham.jsp">Tất cả danh mục Sản phẩm</a></li>
                 <c:forEach  var="product" items="${listAutomaker}">
-                <li class="">ProductSeverlet
-     <a href="ProductSeverlet" title="Honda City">
-     <center><img style="max-width:100%;" class="lazyload" data-src="${product.automaker_img}" /></center>
-     <h2 class="sub-title-menu center">${product.automaker_name}</h2></a>
-           </li>
-           </c:forEach>
+                    <li class="">
+                        <a href="ProductSeverlet?id=${product.automaker_id}" title="Honda City">
+                            <center><img style="max-width:100%;" class="lazyload" data-src="${product.automaker_img}" /></center>
+                            <h2 class="sub-title-menu center">${product.automaker_name}</h2></a>
+                    </li>
+                </c:forEach>
             </ul>
         </li>
         <li class="">
-            <a href="/hondaotog3.com/bang-gia-xe-481805n.jsp" title="Bảng giá xe">Bảng giá xe</a>
+            <a href="../productPrice-servlet" title="Bảng giá xe">Bảng giá xe</a>
         </li>
         <li class="">
-            <a href="/hondaotog3.com/mua-xe-tra-gop-481803n.jsp" title="Mua xe trả góp">Mua xe trả góp</a>
+            <a href="../productInstallment-servlet" title="Mua xe trả góp">Mua xe trả góp</a>
         </li>
         <li class="">
             <a href="/hondaotog3.com/tin-tuc-481806t.jsp" title="Tin tức">Tin tức</a>

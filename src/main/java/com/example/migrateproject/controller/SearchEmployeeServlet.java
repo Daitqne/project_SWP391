@@ -1,7 +1,7 @@
-package controller;
+package com.example.migrateproject.controller;
 
-import dao.EmployeeDAO;
-import model.Employee;
+import com.example.migrateproject.dao.EmployeeDAO;
+import com.example.migrateproject.model.Employee;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;

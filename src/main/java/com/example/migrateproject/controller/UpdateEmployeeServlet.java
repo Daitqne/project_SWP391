@@ -1,12 +1,12 @@
-package controller;
+package com.example.migrateproject.controller;
 
-import dao.EmployeeDAO;
+import com.example.migrateproject.dao.EmployeeDAO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import model.Employee;
+import com.example.migrateproject.model.Employee;
 import java.io.IOException;
 
 @WebServlet(name = "UpdateEmployeeServlet", urlPatterns = {"/UpdateEmployeeServlet"})
