@@ -1,6 +1,8 @@
 package com.example.migrateproject.dao;
 
 import com.example.migrateproject.dal.IProduct;
+import com.example.migrateproject.model.Attribute;
+import com.example.migrateproject.model.CarColor;
 import com.example.migrateproject.model.Product;
 import dto.GetTopProductsWithFirstAttribute;
 
@@ -16,12 +18,23 @@ public class ProductDAO extends DBContext implements IProduct {
     public ArrayList<GetTopProductsWithFirstAttribute> getTopProductsWithFirstAttribute() {
         ArrayList<GetTopProductsWithFirstAttribute> list = new ArrayList<>();
         try {
-            String sql = "{call GetTopProductsWithFirstAttribute}";
-            CallableStatement ps=connection.prepareCall(sql);
+            String sql = "WITH RankedProducts AS (\n" +
+                    "    SELECT p.product_id, \n" +
+                    "           p.product_name, \n" +
+                    "           p.product_img, \n" +
+                    "           p.price,\n" +
+                    "           ROW_NUMBER() OVER (PARTITION BY a.automaker_id ORDER BY p.product_id DESC) AS rn\n" +
+                    "    FROM Product p\n" +
+                    "    JOIN Automaker a ON a.automaker_id = p.automaker_id\n" +
+                    ")\n" +
+                    "SELECT product_id, product_name, product_img, price\n" +
+                    "FROM RankedProducts\n" +
+                    "WHERE rn = 1;";
+            PreparedStatement ps=connection.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 list.add(new GetTopProductsWithFirstAttribute(rs.getInt(1),
-                        rs.getString(2),rs.getFloat(3),rs.getString(4)));
+                        rs.getString(2),rs.getFloat(4),rs.getString(3)));
             }
         } catch (Exception e) {
         }
@@ -182,6 +195,48 @@ public class ProductDAO extends DBContext implements IProduct {
         } catch (Exception e) {
         }
         return list;
+    }
+
+    @Override
+    public InfoProductDAO getProductByProductId(int productId) {
+        Product product = new Product();
+        List<CarColor> carColorList = new ArrayList<>();
+        List<Attribute> attributeList = new ArrayList<>();
+        try {
+            String query = "SELECT * FROM Product where Product.product_id= ?";
+            String queryColor = "SELECT * FROM Car_Color where Car_Color.product_id= ?";
+            String queryAttr = "SELECT * FROM Attribute where Attribute.product_id= ?";
+            CallableStatement stmt1 = connection.prepareCall(query);
+            CallableStatement stmt2 = connection.prepareCall(queryColor);
+            CallableStatement stmt3 = connection.prepareCall(queryAttr);
+            stmt1.setInt(1, productId);
+            stmt2.setInt(1, productId);
+            stmt3.setInt(1, productId);
+            ResultSet rs1 = stmt1.executeQuery();
+            ResultSet rs2 = stmt2.executeQuery();
+            ResultSet rs3 = stmt3.executeQuery();
+            while (rs1.next()) {
+                product = (new Product(rs1.getInt("product_id"), rs1.getString("product_name"),
+                        rs1.getInt("region_id"), rs1.getInt("automaker_id"),
+                        rs1.getInt("quantity"), rs1.getString("product_img"),
+                        rs1.getFloat("price"), rs1.getString("desciption")));
+            }
+            while (rs2.next()) {
+                carColorList.add(new CarColor(rs2.getInt("color_id"),
+                        rs2.getString("color_name"),
+                        rs2.getString("color_img")));
+            }
+            while (rs3.next()) {
+                attributeList.add(new Attribute(rs3.getInt("attribute_id"),
+                        rs3.getString("attribute_name"),
+                        rs3.getString("attribute_value"),
+                        rs3.getString("attribute_img")));
+            }
+            stmt2.setInt(1, productId);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return new InfoProductDAO(product, carColorList, attributeList);
     }
 
     @Override

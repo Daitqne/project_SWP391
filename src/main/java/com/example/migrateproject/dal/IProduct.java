@@ -1,5 +1,6 @@
 package com.example.migrateproject.dal;
 
+import com.example.migrateproject.dao.InfoProductDAO;
 import com.example.migrateproject.model.Product;
 import dto.GetTopProductsWithFirstAttribute;
 
@@ -16,6 +17,7 @@ public interface IProduct {
     ArrayList<Product> getTop4HondaAccord();
     ArrayList<Product> getAllProduct();
     ArrayList<Product> getAllProductByAutumakerId(int id);
+    InfoProductDAO getProductByProductId(int id);
     int countProductByAutomakerId(int automaker_id);
     ArrayList<Product> phanTrang(int automaker_id,int indexSearch);
     List<Product> getProductPaginationByAutoMakerId(int automaker_id, int offset, int noOfRecords, String orderBy);

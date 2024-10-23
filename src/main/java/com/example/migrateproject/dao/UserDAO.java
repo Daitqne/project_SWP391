@@ -39,6 +39,28 @@ public class UserDAO extends DBContext implements IUser {
         }
         return userLogin;
     }
+
+    @Override
+    public User getUserLoginByGmail(String userName) {
+        User userLogin=new User();
+        try{
+            String sql="SELECT * FROM [CarTheHieu].[dbo].[User] where [CarTheHieu].[dbo].[User].user_name= ?";
+            CallableStatement ps=connection.prepareCall(sql);
+            ps.setString(1, userName);
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()){
+                userLogin.setUser_id(rs.getInt("user_id"));
+                userLogin.setUser_name(rs.getString("user_name"));
+                userLogin.setPassword(rs.getString("password"));
+                userLogin.setProfile_img(rs.getString("profile_img"));
+                userLogin.setRole_id(rs.getInt("role_id"));
+            }
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
+        return userLogin;
+    }
+
     public static void main(String[] args) {
 
     }  

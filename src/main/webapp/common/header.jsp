@@ -58,16 +58,14 @@
         <li class="">
             <a href="../productInstallment-servlet" title="Mua xe trả góp">Mua xe trả góp</a>
         </li>
-        <li class="">
-            <a href="/hondaotog3.com/tin-tuc-481806t.jsp" title="Tin tức">Tin tức</a>
-        </li>
+
         <li class="">
             <a href="/hondaotog3.com/lien-he.jsp" title="Liên hệ">Liên hệ</a>
         </li>
 
         <c:choose>
             <c:when test="${ not empty cookie.username.value}">
-                <li class=""><a href="profile.jsp" title="Profile">${cookie.username.value}</a></li>
+                <li class=""><a href="../updateAccount-servlet" title="Profile">${cookie.username.value}</a></li>
                 <li class=""><a href="${pageContext.request.contextPath}/logout" title="Đăng xuất">Đăng xuất</a></li>
             </c:when>
             <c:otherwise>

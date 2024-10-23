@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : phan-biet-sinh-menh-va-cung-menh-nen-chon-mau-xe-o-to-theo-yeu-to-nao-86002u
     Created on : Sep 19, 2024, 1:55:39 AM
     Author     : PC
@@ -19,7 +19,7 @@
     <meta name="msnbot" content="index, follow" />
     <meta name="revisit-after" content="1 days" />
     <meta name="copyright" content="Copyright 2023" />
-    <title>Phân biệt Sinh mệnh và Cung mệnh: Nên chọn màu xe ô tô theo yếu tố nào</title>
+    <title>Thông tin cá nhân</title>
     <meta name="description" content="Bấy lâu nay, nhiều người vẫn hay sử dụng Sinh mệnh để chọn màu sắc xe hợp Quy Luật Ngũ Hành Tương Sinh Tương Khắc. Thực tế điều này không hoàn toàn chính xác và dẫn đến kết quả chọn lựa không như ý muốn cũng như khiến vận mệnh không được hanh thông." />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Phân biệt Sinh mệnh và Cung mệnh: Nên chọn màu xe ô tô theo yếu tố nào" />
@@ -82,7 +82,7 @@
 
 </head>
 <body>
-    
+
     <section class="top group">
         <div class="container group">
             <div class="topbar">
@@ -127,171 +127,58 @@
     </div>
         </div>
     </section>
-    <section class="pathpage group">
-        <div class="container group">
-                    <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Trang chủ" itemtype="https://schema.org/Thing" itemprop="item" href="index.jsp"><span itemprop="name"><span data-lang='bc_home'>Trang chủ</span></span></a>
-                    <meta itemprop="position" content="1">
-                </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Tin tức" itemtype="https://schema.org/Thing" itemprop="item" href="tin-tuc-481806t.jsp"><span itemprop="name">Tin tức</span></a>
-                    <meta itemprop="position" content="2">
-                </li><li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a title="Phân biệt Sinh mệnh và Cung mệnh: Nên chọn màu xe ô tô theo yếu tố nào" itemtype="https://schema.org/Thing" itemprop="item" href="phan-biet-sinh-menh-va-cung-menh-nen-chon-mau-xe-o-to-theo-yeu-to-nao-86002u.jsp"><span itemprop="name">Phân biệt Sinh mệnh và Cung mệnh: Nên chọn màu xe ô tô theo yếu tố nào</span></a>
-                    <meta itemprop="position" content="3">
-                </li>
-        </ol>
 
-        </div>
-    </section>
     <section class="main group">
-        <div class="container group">
-            <div class="content-container">
-        <div class="news group">
-            <h1 class="news-title">Phân biệt Sinh mệnh và Cung mệnh: Nên chọn màu xe ô tô theo yếu tố nào</h1>
-    <div class="social-sharing" data-title="Phân biệt Sinh mệnh và Cung mệnh: Nên chọn màu xe ô tô theo yếu tố nào" data-url="phan-biet-sinh-menh-va-cung-menh-nen-chon-mau-xe-o-to-theo-yeu-to-nao-86002u.jsp">
-        <a class="btn btn-facebook" data-type="facebook" href="javascript:void(0)"><i class="fa fa-facebook"></i> Share</a>
-        <a class="btn btn-twitter" data-type="twitter" href="javascript:void(0)"><i class="fa fa-twitter"></i> Tweet</a>
-        <a class="btn btn-linkedin" data-type="linkedin" href="javascript:void(0)"><i class="fa fa-linkedin"></i> Linkedin</a>
-    </div>
-            <div class="news-content group detail-content"><div class="detail-news-body detail-content">
-<h2><span style="font-size: 14px;">Khi sinh ra, mỗi người đều mang cho mình một </span><strong style="font-size: 14px;">Sinh Mệnh và Cung Mệnh</strong><span style="font-size: 14px;"> hay còn được gọi là Bản Mệnh. Thuật phong thủy chỉ ra Sinh mệnh và Cung mệnh có liên quan với nhau đồng thời có ý nghĩa rất quan trọng đối với mỗi người.</span></h2>
+<div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mt-5">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="text-center">Register</h3>
+                            </div>
+                            <div class="card-body">
 
-<p style="text-align:center;"><img  alt="Phong thủy - Hình 1" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" title="Phong thủy - Hình 1" class="lazyload" data-src="../cdn.gianhangvn.com/image/phong-thuy-1-b9glkzg.jpg"/></p>
+                            <form action="userprofile" method="post">
+                                <div class="mb-3">
+                                    <label for="username" class="form-label">Username</label>
+                                    <input type="text" class="form-control" id="username" value="" name="username" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" value="" id="password" name="password" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fullName" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="fullName" value="" name="fullName" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" value="" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Phone</label>
+                                    <input type="text" class="form-control" value="" id="phone" name="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="address" class="form-label">Address</label>
+                                    <input type="text" class="form-control" value="" id="address" name="address" required>
+                                </div>
+                                <div class="d-grid">
+                                    <input type="hidden" value="${account.id}" name="idAccount">
+                                    <button type="submit" class="btn btn-success">Update Account</button>
+                                </div>
+                            </form>
+                            <br>
 
-<p style="text-align:center;">&nbsp;</p>
-
-<p style="text-align:center;font-style: italic;color:#555;">Ngũ Hành Tương Sinh, Tương Khắc</p>
-
-<p>Trước khi tìm câu trả lời cho thắc mắc Chọn màu xe hợp tuổi hợp mệnh cần dựa vào Sinh mệnh hay Cung mệnh? Bạn cần phân biệt Sinh Mệnh là gì? Sinh mệnh được sử dụng để làm gì? Cung Mệnh là gì? Cung mệnh được dùng để làm gì?</p>
-
-<p>Ngay bây giờ, hãy cùng DailyXe tìm hiểu kỹ thông tin nên dựa vào <strong>Sinh mệnh hay Cung mệnh khi chọn màu xe hợp phong thủy?</strong></p>
-
-<p>Nội dung chính trong bài: Sinh mệnh là gì? Ứng dụng của Sinh mệnh vào việc gì tốt?Khái niệm Sinh mệnh</p>
-
-<p>Ứng dụng của Sinh mệnh</p>
-
-<p>Cung mệnh là gì? Ứng dụng của Cung mệnh vào việc gì tốt?Khái niệm Cung mệnh</p>
-
-<p>Ứng dụng của Cung mệnh</p>
-
-<p>Sử dụng sinh mệnh để lựa chọn màu sắc xe hợp phong thủy có đúng hay không?Nguyên nhân nhiều người nhầm lẫn khi dựa theo Sinh mệnh để chọn màu sắc xe</p>
-
-<p>Lý giải vì sao bạn nên chọn màu sắc xe hợp tuổi dựa theo Cung mệnh</p>
-
-<h2 style="font-size: 125%; font-style: normal !important; text-align: center; padding: 12px; border-radius: 5px;color: #fff; background-color: #14ac54;"><span style="display: inline-block; color: #111; width: 40px; height: 40px; line-height: 40px; font-size: 20px; text-align: center; background-color: #fff; border-radius: 50%;">1</span></h2>
-
-<p>Sinh mệnh là gì? Ứng dụng của Sinh mệnh vào việc gì tốt?</p>
-
-<h3>1. Khái niệm Sinh mệnh</h3>
-
-<p>&diams; Sinh mệnh là yếu tố gắn với con người từ khi sinh ra và được tính theo năm. Nó tương tự như tính cách bẩm sinh có riêng ở mỗi người.</p>
-
-<p>&nbsp;</p>
-
-<p>&diams; Không quan tâm bạn là nam hay nữ, chỉ cần có chung năm sinh âm Lịch thì Sinh mệnh sẽ giống nhau. Và điều này sẽ lặp lại sau mỗi chu kỳ 60 năm, ví dụ: Người sinh năm 1926 và 1986 đều có Sinh mệnh là Lư Trung Hỏa.</p>
-
-<p>&diams; Nhắc tới Sinh mệnh là nghĩ ngay tới một khái niệm hết sức gần gũi và quen thuộc với mọi người, chẳng hạn như: Hải Trung Kim, Lư Trung Hỏa, Lộ Bàng Thổ.</p>
-
-<p style="text-align:center;"><img  alt="Phong thủy - Hình 3" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" title="Phong thủy - Hình 3" class="lazyload" data-src="../cdn.gianhangvn.com/image/phong-thuy-3-o13akzh.jpg"/></p>
-
-<p style="text-align:center;">&nbsp;</p>
-
-<h3>2. Ứng dụng của Sinh&nbsp;mệnh</h3>
-
-<p>&diams; Độ chuẩn xác sẽ rất cao khi sử dụng Sinh mệnh để xem hung cát, tử vi hàng ngày, xem mệnh hai người có hợp nhau và có hợp để cưới hỏi.</p>
-
-<p style="text-align:center;"><img  alt="Phong thủy - Hình 5" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" title="Phong thủy - Hình 5" class="lazyload" data-src="../cdn.gianhangvn.com/image/phong-thuy-5-2tidkzi.jpg"/></p>
-
-<p style="text-align:center;">&nbsp;</p>
-
-<h2 style="font-size: 125%; font-style: normal !important; text-align: center; padding: 12px; border-radius: 5px;color: #fff; background-color: #14ac54;"><span style="display: inline-block; color: #111; width: 40px; height: 40px; line-height: 40px; font-size: 20px; text-align: center; background-color: #fff; border-radius: 50%;">2</span><br />
-Cung mệnh là gì? Ứng dụng của Cung mệnh vào việc gì tốt?</h2>
-
-<p>Cung mệnh là gì? Ứng dụng của Cung mệnh vào việc gì tốt?</p>
-
-<h3>1. Khái niệm Cung mệnh</h3>
-
-<p>&diams; Cung mệnh được xem là khái niệm dựa trên Cung Phi Bát Trạch trong Kinh Dịch.</p>
-
-<p>&nbsp;</p>
-
-<p>&diams; 3 yếu tố trong Cung mệnh bao gồm: Mệnh (Kim, Mộc, Thủy, Hỏa, Thổ), Cung (Cấn, Càn, Đoài, Khôn,...) và Hướng (Bắc, Nam, Đông Bắc,...).</p>
-
-<p>&diams; Cung mệnh phụ thuộc vào 2 yếu tố bao gồm năm sinh âm lịch và giới tính của bạn. Vì vậy, người sinh cùng năm, nhưng khác nhau về giới tính sẽ có Cung mệnh khác nhau. Ví dụ: Nữ sinh năm 1990 có cung mệnh là cung Cấn, hành Thổ, hướng Đông Bắc. Còn nam sinh năm 1990 có Cung mệnh là cung Khảm, hành Thủy hướng Bắc</p>
-
-<p>&diams; Cung mệnh dựa trên ngũ hành, bát quái. Do đó Cung mệnh phản ánh vạn vật trong vũ trụ cũng như sự biến đổi và phát triển của chúng theo thời gian.</p>
-
-<p style="text-align:center;"><img  alt="Phong thủy - Hình 7" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" title="Phong thủy - Hình 7" class="lazyload" data-src="../cdn.gianhangvn.com/image/phong-thuy-7-ouitkzj.jpg"/></p>
-
-<p style="text-align:center;">&nbsp;</p>
-
-<h3>2. Ứng dụng của Cung mệnh</h3>
-
-<p>&diams; Cung mệnh được sử dụng để xác định mối quan hệ tương sinh, tương khắc, chọn màu sắc hợp tuổi hợp mệnh, xác định phương hướng, xây dựng sửa chữa nhà cửa, bếp núc, mồ mả sao cho đúng Cát Phước, Hung họa&hellip;</p>
-
-<p>&diams; Cung mệnh còn được sử dụng để tăng cường cho các mối quan hệ bên ngoài xã hội, hỗ trợ công việc, thăng quan tiến chức, chọn màu xe.</p>
-
-<p style="text-align:center;"><img  alt="Phong thủy - Hình 9" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" title="Phong thủy - Hình 9" class="lazyload" data-src="../cdn.gianhangvn.com/image/phong-thuy-9-996ikzk.jpg"/></p>
-
-<p style="text-align:center;">&nbsp;</p>
-
-<h2 style="font-size: 125%; font-style: normal !important; text-align: center; padding: 12px; border-radius: 5px;color: #fff; background-color: #14ac54;">Mối quan hệ giữa Sinh mệnh và Cung mệnh</h2>
-
-<p>Khi bạn chào đời, cha mẹ cho bạn Sinh mệnh. Tuy nhiên, cuộc sống sẽ làm bạn thay đổi về số phận. Khi lớn lên, bạn sẽ có lục thân bao gồm: Bản thân, cha mẹ, anh chị em, con cái, vợ chồng, bạn bè. Chắc chắn, yếu tố lục thân này ở mỗi người sẽ có sự khác nhau, chẳng hạn: cha mẹ khác nhau, hướng nhà khác nhau, địa lý khác nhau, vợ chồng khác nhau, con cái khác nhau - Điều này làm cho số mệnh của mỗi người sẽ có sự biến động.</p>
-
-<p>Khái niệm Cung Mệnh dựa trên Ngũ hành, bát quái, qua đó sẽ phản ánh vạn vật trong vũ trụ cũng như sự biến đổi và phát triển của chúng qua thời gian.</p>
-
-<h3>Tóm lại:</h3>
-
-<p>Bạn được Cha Trời cho Sinh Mệnh từ khi sinh ra.</p>
-
-<p>Bạn được Mẹ Đất bao bọc và yêu thương bởi Bát Quái. Đó chính là Cung Sống (Cung mệnh) của bạn.</p>
-
-<h2 style="font-size: 125%; font-style: normal !important; text-align: center; padding: 12px; border-radius: 5px;color: #fff; background-color: #14ac54;"><span style="display: inline-block; color: #111; width: 40px; height: 40px; line-height: 40px; font-size: 20px; text-align: center; background-color: #fff; border-radius: 50%;">3</span></h2>
-
-<p>Sử dụng sinh mệnh để lựa chọn màu sắc xe hợp phong thủy có đúng hay không?</p>
-
-<h3>1. Nguyên nhân nhiều người nhầm lẫn khi dựa theo Sinh mệnh để chọn màu sắc xe</h3>
-
-<p>&diams; Sinh mệnh và Cung mệnh là 2 kinh nghiệm đã được người xưa đúc kết và thường xuyên ứng dụng trong thực tế nhằm giúp cho cuộc sống của mỗi người trở nên tốt đẹp hơn.</p>
-
-<p>&nbsp;</p>
-
-<p>&diams; Sinh mệnh lại liên quan tới các sự kiện trọng đại như xem tuổi hợp để cưới xin. Vì thế, hầu hết mọi người chỉ biết tới Sinh mệnh mà không quan tâm - thậm chí không hề biết tới sự tồn tại của Cung Mệnh.</p>
-
-<h3>2. Lý giải vì sao bạn nên chọn màu sắc xe hợp tuổi dựa theo Cung mệnh</h3>
-
-<p>&diams; Nhiều người có xu hướng dựa vào Sinh mệnh để chọn lựa màu sắc hợp phong thủy. Tuy nhiên, chỉ dựa vào Sinh mệnh để chọn màu sắc hợp tuổi hợp mệnh thì vẫn chưa đủ vì chỉ thấy gốc mà không thấy ngọn, chỉ có thể thấy điểm khởi đầu mà không thấy được quá trình phát triển. Đặc biệt, <strong>nếu chỉ dựa vào Sinh mệnh thì sẽ có hàng triệu người sinh ra sẽ có chung số mệnh</strong>, đó đó điều này phi thực tế cũng như bất hợp lý.</p>
-
-<p>&diams; Việc lựa chọn màu sắc hợp phong thủy cần dựa trên những mối quan hệ của Ngũ hành. Mặt khác, phản ánh ngũ hành lên mỗi người chính là Cung mệnh. Do đó, để có sự lựa chọn chính xác nhất và phù hợp với cuộc sống hiện tại của bạn thì bạn nên chọn màu sắc theo Cung mệnh.</p>
-
-<p>Hy vọng với những thông tin mà DailyXe mang đến trong bài viết này đã giúp bạn biết cách chọn màu xe hợp phong thủy, mang tới may mắn và tài lộc cho bạn!</p>
-
-<p>Thực tế vẫn có một số người có Sinh mệnh và Cung mệnh trùng với nhau. Chẳng hạn như Nam sinh năm 1985 có Sinh mệnh là Hải Trung Kim; Cung mệnh là Cung Càn, hành Kim, hướng Tây Bắc. Vậy là cả Sinh mệnh và Cung mệnh đều là mệnh Kim. Nhưng đó chỉ là số ít.</p>
-
-<h3>Tham Khảo Chọn Màu Xe Hợp Tuổi - Đem Lại Nhiều Tài Lộc, May Mắn</h3>
-
-<p style="text-align: center;"><img  alt="" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" style="width: 720px;" class="lazyload" data-src="../cdn.gianhangvn.com/image/lua-chon-mau-son-nha-theo-tuoi-05-b2f8kzl.jpg"/></p>
-</div></div>
-        </div>
-        <div class="box-center">
-            <p class="box-center-title" data-lang="detailnews_review">Bình chọn tin tức</p>
-            <div class="box-center-content group">
-                <div class="user-review">
-                    <span data-lang="detailnews_review_title">Bình chọn tin tức:</span>
-                    <a href="javascript:void(0)" class="starrr" data-type="news" data-id="86002" data-value="0"></a>
-                    <span class="user-review-value" style="margin-left:6px;">(<span>1.0</span> / <span>2</span> đánh giá)</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="box-center">
-            <h4 class="box-center-title" data-lang="detailnews_morenews">Tin tức khác</h4>
-            <div class="box-center-content">
-            </div>
-        </div>
-    </div>
-        </div>
+
+</div>
+</div>
+
     </section>
     <section>
         <div class="footer group">
@@ -343,38 +230,7 @@ Cung mệnh là gì? Ứng dụng của Cung mệnh vào việc gì tốt?</h2>
     </div>
     </section>
     <section class="cd-nav">
-        <ul class="cd-primary-nav" id="cd-primary-nav">
-                <li class="">
-                                <a href="index.jsp" title="Trang chủ">Trang chủ</a>
-                    </li><li class="has-children">
-                                <a href="san-pham.jsp" title="Sản phẩm">Sản phẩm</a>
-            <ul class="cd-secondary-nav is-hidden">
-                <li class="go-back"><a href="javascript:void(0);">Sản phẩm</a></li>
-                <li class="see-all"><a href="san-pham.jsp">Tất cả danh mục Sản phẩm</a></li>
-                <li class="">
-                            <a href="honda-city-481809s.jsp" title="Honda City"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-city-2166737j31185.jpg" /></center><h2 class="sub-title-menu center">Honda City</h2></a>
-                    </li><li class="">
-                            <a href="honda-br-v-506977s.jsp" title="Honda BR-V"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-br-v-2445204j31185.jpg" /></center><h2 class="sub-title-menu center">Honda BR-V</h2></a>
-                    </li><li class="">
-                            <a href="honda-civic-481810s.jsp" title="Honda Civic"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-civic-2166736j31185.jpg" /></center><h2 class="sub-title-menu center">Honda Civic</h2></a>
-                    </li><li class="">
-                            <a href="honda-hrv-481811s.jsp" title="Honda HR-V"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-hrv-2166731j31185.jpg" /></center><h2 class="sub-title-menu center">Honda HR-V</h2></a>
-                    </li><li class="">
-                            <a href="honda-crv2023-481812s.jsp" title="Honda CR-V"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-crv2023-2524420j31185.jpg" /></center><h2 class="sub-title-menu center">Honda CR-V</h2></a>
-                    </li><li class="">
-                            <a href="honda-accord-481813s.jsp" title="Honda Accord"><center><img style="max-width:100%;" class="lazyload" data-src="../drive.gianhangvn.com/image/honda-accord-2166734j31185.jpg" /></center><h2 class="sub-title-menu center">Honda Accord</h2></a>
-                    </li>
-            </ul>
-                    </li><li class="">
-                                <a href="bang-gia-xe-481805n.jsp" title="Bảng giá xe">Bảng giá xe</a>
-                    </li><li class="">
-                                <a href="mua-xe-tra-gop-481803n.jsp" title="Mua xe trả góp">Mua xe trả góp</a>
-                    </li><li class="">
-                                <a href="tin-tuc-481806t.jsp" title="Tin tức">Tin tức</a>
-                    </li><li class="">
-                                <a href="lien-he.jsp" title="Liên hệ">Liên hệ</a>
-                    </li>
-            </ul>
+        <jsp:include page="/common/header.jsp" />
     </section>
     <p id="back-top"><a href="javascript:void(0);" title="Scroll To Top"><i class="fa fa-angle-up"></i>Top</a></p>
         <a class="btn-call-now" href="tel:0966991930" title="Gọi ngay cho chúng tôi"><em class="fa fa-phone">&nbsp;</em></a>

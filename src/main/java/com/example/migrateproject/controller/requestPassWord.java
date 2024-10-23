@@ -65,6 +65,7 @@ public class requestPassWord extends HttpServlet {
                 msg.setSubject("Thu nhiem gui email");
                 msg.setText("NewPassword :"+passwordNew,"UTF-8");
                 Transport.send(msg);
+                response.sendRedirect("hondaotog3.com/login.jsp");
             }catch (Exception ex){
                 System.out.println("Gui that bai");
             }
