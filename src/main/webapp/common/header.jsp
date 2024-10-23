@@ -36,16 +36,28 @@
 <section class="cd-nav">
     <ul class="cd-primary-nav" id="cd-primary-nav">
         <li class="">
+<<<<<<< HEAD
             <a href="LoadAutomaker?load=home" title="Trang chủ">Trang chủ</a>
         </li>
         <li class="has-children">
             <a href="LoadAutomaker?load=product" title="Sản phẩm">Sản Phẩms</a>
+=======
+            <a href="../LoadAutomaker" title="Trang chủ">Trang chủ</a>
+        </li>
+        <li class="has-children">
+            <a href="LoadAutomaker" title="Sản phẩm">Sản Phẩms</a>
+>>>>>>> HieuNT
             <ul class="cd-secondary-nav is-hidden">
                 <li class="go-back"><a href="javascript:void(0);">Sản phẩm</a></li>
                 <li class="see-all"><a href="san-pham.jsp">Tất cả danh mục Sản phẩm</a></li>
                 <c:forEach  var="product" items="${listAutomaker}">
+<<<<<<< HEAD
                 <li class="">ProductSeverlet
      <a href="ProductSeverlet" title="Honda City">
+=======
+                <li class="">
+     <a href="ProductSeverlet?id=${product.automaker_id}" title="Honda City">
+>>>>>>> HieuNT
      <center><img style="max-width:100%;" class="lazyload" data-src="${product.automaker_img}" /></center>
      <h2 class="sub-title-menu center">${product.automaker_name}</h2></a>
            </li>
@@ -53,6 +65,7 @@
             </ul>
         </li>
         <li class="">
+<<<<<<< HEAD
             <a href="/hondaotog3.com/bang-gia-xe-481805n.jsp" title="Bảng giá xe">Bảng giá xe</a>
         </li>
         <li class="">
@@ -61,13 +74,25 @@
         <li class="">
             <a href="/hondaotog3.com/tin-tuc-481806t.jsp" title="Tin tức">Tin tức</a>
         </li>
+=======
+            <a href="../productPrice-servlet" title="Bảng giá xe">Bảng giá xe</a>
+        </li>
+        <li class="">
+            <a href="../productInstallment-servlet" title="Mua xe trả góp">Mua xe trả góp</a>
+        </li>
+
+>>>>>>> HieuNT
         <li class="">
             <a href="/hondaotog3.com/lien-he.jsp" title="Liên hệ">Liên hệ</a>
         </li>
 
         <c:choose>
             <c:when test="${ not empty cookie.username.value}">
+<<<<<<< HEAD
                 <li class=""><a href="profile.jsp" title="Profile">${cookie.username.value}</a></li>
+=======
+                <li class=""><a href="../updateAccount-servlet" title="Profile">${cookie.username.value}</a></li>
+>>>>>>> HieuNT
                 <li class=""><a href="${pageContext.request.contextPath}/logout" title="Đăng xuất">Đăng xuất</a></li>
             </c:when>
             <c:otherwise>

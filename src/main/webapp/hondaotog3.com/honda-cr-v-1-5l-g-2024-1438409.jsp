@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <%-- 
+=======
+<%--
+>>>>>>> HieuNT
     Document   : honda-cr-v-1-5l-g-2024-1438409
     Created on : Sep 19, 2024, 1:48:55 AM
     Author     : PC
@@ -7,6 +11,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE jsp>
 <jsp>
+<<<<<<< HEAD
     <head lang="vi" xml:lang="vi">
     <meta charset="utf-8" />
     <meta http-equiv="content-type" content="text/jsp; charset=UTF-8" />
@@ -1662,6 +1667,11 @@ $(".btn-call-now").jsp("<span class='phone-circle'><i class='fa fa-phone'></i><s
 });
 </script>
 <script src="https://uhchat.net/code.php?f=5b4f6b"></script>
+=======
+
+
+
+>>>>>>> HieuNT
 
 </body>
 </jsp>

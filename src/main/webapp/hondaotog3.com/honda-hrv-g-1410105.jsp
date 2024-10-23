@@ -167,6 +167,7 @@
             
         </div>
     </section>
+<<<<<<< HEAD
     <section class="pathpage group">
         <div class="container group">
                     <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -187,6 +188,9 @@
 
         </div>
     </section>
+=======
+     <jsp:include page="/common/header.jsp" />
+>>>>>>> HieuNT
     <section class="main group">
         <div class="container group">
             <div class="content-container">
@@ -488,6 +492,7 @@
         </div>
     </div>
     </section>
+<<<<<<< HEAD
     <section class="cd-nav">
         <ul class="cd-primary-nav" id="cd-primary-nav">
                 <li class="">
@@ -522,6 +527,9 @@
                     </li>
             </ul>
     </section>
+=======
+
+>>>>>>> HieuNT
     <p id="back-top"><a href="javascript:void(0);" title="Scroll To Top"><i class="fa fa-angle-up"></i>Top</a></p>
         <a class="btn-call-now" href="tel:0926278500" title="Gọi ngay cho chúng tôi"><em class="fa fa-phone">&nbsp;</em></a>
         <a class="btn-shopping-cart" href="gio-hang.jsp"><em class="fa fa-shopping-cart">&nbsp;</em><span class="btn-shopping-cart-number">(<span class="total-product" data-field="number">0</span>)</span></a>

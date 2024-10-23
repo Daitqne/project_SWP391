@@ -12,6 +12,10 @@ import java.util.ArrayList;
 
 import com.example.migrateproject.dao.ProductDAO;
 import com.example.migrateproject.model.Automaker;
+<<<<<<< HEAD
+=======
+import com.example.migrateproject.model.Product;
+>>>>>>> HieuNT
 import dto.GetTopProductsWithFirstAttribute;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -60,6 +64,7 @@ public class LoadAutomaker extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
+<<<<<<< HEAD
 //                AutomakerDAO dao= new AutomakerDAO();
 //        ProductDAO productDAO=new ProductDAO();
 ////        ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
@@ -89,14 +94,38 @@ public class LoadAutomaker extends HttpServlet {
         request.getRequestDispatcher("hondaotog3.com/san-pham.jsp").forward(request,response);
     }
 
+=======
+        AutomakerDAO dao= new AutomakerDAO();
+        ProductDAO productDAO=new ProductDAO();
+        ArrayList<GetTopProductsWithFirstAttribute> listTopProductFrist=productDAO.getTopProductsWithFirstAttribute();
+        request.setAttribute("listTopProductFrist",listTopProductFrist);
+        ArrayList<Product> listTop4Civic=productDAO.getTop4HondaCivic();
+        request.setAttribute("listTop4Civic",listTop4Civic);
+        ArrayList<Product> listTop4BRV=productDAO.getTop4HondaBRV();
+        request.setAttribute("listTop4BRV",listTop4BRV);
+        ArrayList<Product> listTop4CRV=productDAO.getTop4HondaCRV();
+        request.setAttribute("listTop4CRV",listTop4CRV);
+        ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
+        request.setAttribute("listAutomaker",listAutomaker);
+        request.getRequestDispatcher("hondaotog3.com/index.jsp").forward(request,response);
+    }
+
+
+>>>>>>> HieuNT
     private void loadHomePageData(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         AutomakerDAO dao= new AutomakerDAO();
         ProductDAO productDAO=new ProductDAO();
         ArrayList<GetTopProductsWithFirstAttribute> listTopProductFrist=productDAO.getTopProductsWithFirstAttribute();
         request.setAttribute("listTopProductFrist",listTopProductFrist);
+<<<<<<< HEAD
         ArrayList<GetTopProductsWithFirstAttribute> listTop4Civic=productDAO.getTop4HondaCivic();
         request.setAttribute("listTop4Civic",listTop4Civic);
         ArrayList<GetTopProductsWithFirstAttribute> listTop4HRV=productDAO.getTop4HondaBRV();
+=======
+        ArrayList<Product> listTop4Civic=productDAO.getTop4HondaCivic();
+        request.setAttribute("listTop4Civic",listTop4Civic);
+        ArrayList<Product> listTop4HRV=productDAO.getTop4HondaBRV();
+>>>>>>> HieuNT
         request.setAttribute("listTop4HRV",listTop4HRV);
         ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
         request.setAttribute("listAutomaker",listAutomaker);

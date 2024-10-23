@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/updateAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/InfoProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Attribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/CarColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CustomerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/dataTables/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/img/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/dataTables/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/dataTables/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/script-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/flot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/forms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/grid.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/headerDoc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/headerNgang.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/icons.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/morris.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/notifications.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/panels-wells.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/tables.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/typography.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/requestPassWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/requestPassWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/phan-biet-sinh-menh-va-cung-menh-nen-chon-mau-xe-o-to-theo-yeu-to-nao-86002u.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/updateAccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Add new Servlet" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2mtKUvbYvbJDPvIhAyTOsT8sYFe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AutomakerDAO.executor": "Run",
+    "Application.BankDAO.executor": "Run",
+    "Application.CustomerDAO.executor": "Run",
+    "Application.ProductDAO.executor": "Run",
+    "Application.UserDAO.executor": "Run",
+    "Application.Validate.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Smart Tomcat.TomcatTheHieu.executor": "Run",
+    "Smart Tomcat.Unnamed (1).executor": "Run",
+    "Smart Tomcat.Unnamed.executor": "Run",
+    "Smart Tomcat.tomcat new.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "HieuNT",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project/MigrateProject/src/main/webapp/hondaotog3.com",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\MigrateProject\src\main\webapp\hondaotog3.com" />
+      <recent name="D:\Project\MigrateProject\src\main\java\com\example\migrateproject\model" />
+      <recent name="D:\Project\MigrateProject\src\main\webapp\admin\pages" />
+      <recent name="D:\Project\MigrateProject\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.migrateproject.controller" />
+      <recent name="com.example.migrateproject.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.tomcat new">
+    <configuration name="AutomakerDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.AutomakerDAO" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.BankDAO" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.CustomerDAO" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.dao.ProductDAO" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Validate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.migrateproject.validate.Validate" />
+      <module name="MigrateProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.migrateproject.validate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TomcatTheHieu" type="com.poratu.idea.plugins.tomcat">
+      <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/MigrateProject/MigrateProject/logs/catalina.*" />
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="adminPort" value="8004" />
+      <option name="catalinaBase" value="C:\Users\hieun\.SmartTomcat\MigrateProject\MigrateProject" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.17" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../../Program Files/Apache Software Foundation/Tomcat 10.1_Tomcat10_Hieu" />
+          <option name="version" value="10.1.17.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="MigrateProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/MigrateProject/MigrateProject/logs/catalina.*" />
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\hieun\.SmartTomcat\MigrateProject\MigrateProject" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.30" />
+          <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-10.1.30/apache-tomcat-10.1.30" />
+          <option name="version" value="10.1.30.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="MigrateProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.17" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../../Program Files/Apache Software Foundation/Tomcat 10.1_Tomcat10_Hieu" />
+          <option name="version" value="10.1.17.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat new" type="com.poratu.idea.plugins.tomcat">
+      <log_file alias="Tomcat Catalina Log" path="$USER_HOME$/.SmartTomcat/MigrateProject/MigrateProject/logs/catalina.*" />
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\hieun\.SmartTomcat\MigrateProject\MigrateProject" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.17" />
+          <option name="path" value="C:/Program Files/Apache Software Foundation/Tomcat 10.1_Tomcat10_Hieu" />
+          <option name="version" value="10.1.17.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="MigrateProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Validate" />
+      <item itemvalue="Application.AutomakerDAO" />
+      <item itemvalue="Application.BankDAO" />
+      <item itemvalue="Application.CustomerDAO" />
+      <item itemvalue="Application.ProductDAO" />
+      <item itemvalue="Smart Tomcat.TomcatTheHieu" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
+      <item itemvalue="Smart Tomcat.tomcat new" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Validate" />
+        <item itemvalue="Application.CustomerDAO" />
+        <item itemvalue="Application.ProductDAO" />
+        <item itemvalue="Application.BankDAO" />
+        <item itemvalue="Application.AutomakerDAO" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="" />
+      <created>1727890452990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727890452990</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ok">
+      <option name="closed" value="true" />
+      <created>1728319660505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728319660505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
+</project>

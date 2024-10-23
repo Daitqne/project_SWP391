@@ -13,5 +13,11 @@ import com.example.migrateproject.model.User;
  */
 public interface IUser {
     User getUserLogin(String userName,String password);
+<<<<<<< HEAD
     ArrayList<User> getAll();
+=======
+    User getUserLoginByGmail(String userName);
+    ArrayList<User> getAll();
+    boolean UpdateUser(String password,int user_id);
+>>>>>>> HieuNT
 }

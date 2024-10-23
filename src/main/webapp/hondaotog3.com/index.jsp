@@ -145,7 +145,11 @@
                                 class="fast-access-icon">&nbsp;<em class="fa fa-usd">&nbsp;</em></span> <span
                                 class="fast-access-title">Yêu cầu báo giá</span> </a></div>
 
+<<<<<<< HEAD
                         <div class="col-4"><a class="fast-access" href="mua-xe-tra-gop-481803n.jsp"><span
+=======
+                        <div class="col-4"><a class="fast-access" href="../productInstallment-servlet"><span
+>>>>>>> HieuNT
                                 class="fast-access-icon">&nbsp;<em class="fa fa-calculator">&nbsp;</em></span> <span
                                 class="fast-access-title">Thủ tục trả góp</span> </a></div>
 
@@ -206,7 +210,11 @@
                                                                         src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                                                                         class="lazyload" data-src=""/></p>
 
+<<<<<<< HEAD
                                     <h2 style="text-align: center;"><span style="font-size:24px;">Phụ trách kinh doanh: MR Hieu}</span>
+=======
+                                    <h2 style="text-align: center;"><span style="font-size:24px;">Phụ trách kinh doanh: MR Hieu</span>
+>>>>>>> HieuNT
                                     </h2>
 
                                     <h2 style="text-align: center;"><span style="color:#FF0000;"><span
@@ -263,6 +271,7 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="box box-product group">
                 <div class="box-header">
                     <p class="box-title">Honda Civic</p>
@@ -291,6 +300,38 @@
                             </div>
                         </div></c:forEach>
 
+=======
+
+
+            <div class="box box-product group">
+                <div class="box-header">
+                    <p class="box-title">Honda Ciric</p>
+                </div>
+                <div class="box-content group">
+                    <div class="row">
+                    <c:forEach items="${listTop4Civic}" var="listCivic">
+                        <div class="col-6 col-md-3 col-product">
+                            <div class="product">
+                                <div class="product-image">
+                                    <a href="#" title="${listCivic.productName}"><img
+                                            class="img-responsive lazyload" alt="Honda CR-V 1.5L G 2024"
+                                            data-src="${listCivic.linkVideo}"/></a>
+                                </div>
+                                <div class="caption">
+                                    <h3 class="name"><a href="#"
+                                                        title="Honda CR-V 1.5L G 2024">${listCivic.productName}</a></h3>
+                                    <div class="content-price">
+                                        <span class="price">${listCivic.price}VND</span>
+                                        <span class="view"><i class="fa fa-eye"></i><span>827 lượt</span></span>
+                                    </div>
+                                    <a class="btn btn-addcart" href="javascript:void(0);" data-id="1438409"
+                                       data-url="https://hondaotolongbienhn.com/gio-hang.jsp" title="Mua ngay"
+                                       data-lang="btn_addcart">THÊM VÀO GIỎ HÀNG</a>
+                                </div>
+                            </div>
+                        </div>
+                        </c:forEach>
+>>>>>>> HieuNT
                     </div>
                 </div>
             </div>
@@ -300,6 +341,7 @@
                             </div>
                             <div class="box-content group">
                                 <div class="row">
+<<<<<<< HEAD
                                 <c:forEach items="${listTop4HRV}" var="listTop4HRV">
                                     <div class="col-6 col-md-3 col-product">
 
@@ -415,6 +457,64 @@
                     </div>
                 </div>
             </div>
+=======
+                                <c:forEach items="${listTop4BRV}" var="listCivic">
+                                    <div class="col-6 col-md-3 col-product">
+                                        <div class="product">
+                                            <div class="product-image">
+                                                <a href="#" title="${listCivic.productName}"><img
+                                                        class="img-responsive lazyload" alt="Honda CR-V 1.5L G 2024"
+                                                        data-src="${listCivic.linkVideo}"/></a>
+                                            </div>
+                                            <div class="caption">
+                                                <h3 class="name"><a href="#"
+                                                                    title="Honda CR-V 1.5L G 2024">${listCivic.productName}</a></h3>
+                                                <div class="content-price">
+                                                    <span class="price">${listCivic.price}VND</span>
+                                                    <span class="view"><i class="fa fa-eye"></i><span>827 lượt</span></span>
+                                                </div>
+                                                <a class="btn btn-addcart" href="javascript:void(0);" data-id="1438409"
+                                                   data-url="https://hondaotolongbienhn.com/gio-hang.jsp" title="Mua ngay"
+                                                   data-lang="btn_addcart">THÊM VÀO GIỎ HÀNG</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </c:forEach>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box box-product group">
+                                                    <div class="box-header">
+                                                        <p class="box-title">Honda CRV</p>
+                                                    </div>
+                                                    <div class="box-content group">
+                                                        <div class="row">
+                                                        <c:forEach items="${listTop4CRV}" var="listCivic">
+                                                            <div class="col-6 col-md-3 col-product">
+                                                                <div class="product">
+                                                                    <div class="product-image">
+                                                                        <a href="#" title="${listCivic.productName}"><img
+                                                                                class="img-responsive lazyload" alt="Honda CR-V 1.5L G 2024"
+                                                                                data-src="${listCivic.linkVideo}"/></a>
+                                                                    </div>
+                                                                    <div class="caption">
+                                                                        <h3 class="name"><a href="#"
+                                                                                            title="Honda CR-V 1.5L G 2024">${listCivic.productName}</a></h3>
+                                                                        <div class="content-price">
+                                                                            <span class="price">${listCivic.price}VND</span>
+                                                                            <span class="view"><i class="fa fa-eye"></i><span>827 lượt</span></span>
+                                                                        </div>
+                                                                        <a class="btn btn-addcart" href="javascript:void(0);" data-id="1438409"
+                                                                           data-url="https://hondaotolongbienhn.com/gio-hang.jsp" title="Mua ngay"
+                                                                           data-lang="btn_addcart">THÊM VÀO GIỎ HÀNG</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </c:forEach>
+                                                        </div>
+                                                    </div>
+                                                </div>
+>>>>>>> HieuNT
         </div>
     </section>
     <section>

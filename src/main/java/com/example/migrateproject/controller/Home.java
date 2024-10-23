@@ -4,6 +4,10 @@ import java.io.*;
 import java.util.ArrayList;
 
 import com.example.migrateproject.dao.AutomakerDAO;
+<<<<<<< HEAD
+=======
+import com.example.migrateproject.dao.CustomerDAO;
+>>>>>>> HieuNT
 import com.example.migrateproject.dao.ProductDAO;
 import com.example.migrateproject.model.Automaker;
 import com.example.migrateproject.model.User;
@@ -42,6 +46,10 @@ public class Home extends HttpServlet {
                     AutomakerDAO dao= new AutomakerDAO();
                     ProductDAO productDAO=new ProductDAO();
                     ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
+<<<<<<< HEAD
+=======
+                    request.setAttribute("listAutomaker",listAutomaker);
+>>>>>>> HieuNT
                     ArrayList<GetTopProductsWithFirstAttribute> listTopProductFrist=productDAO.getTopProductsWithFirstAttribute();
                     request.setAttribute("listTopProductFrist",listTopProductFrist);
                     request.getRequestDispatcher("/hondaotog3.com/index.jsp").forward(request,response);
@@ -57,10 +65,23 @@ public class Home extends HttpServlet {
                 }
                 break;
             case 3:
+<<<<<<< HEAD
                 try {
 
                 }catch (Exception ex){
                     request.getRequestDispatcher("/hondaotog3.com/login.jsp").forward(request, response);
+=======
+                try{
+                    AutomakerDAO dao= new AutomakerDAO();
+                    ProductDAO productDAO=new ProductDAO();
+                    ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
+                    request.setAttribute("listAutomaker",listAutomaker);
+                    ArrayList<GetTopProductsWithFirstAttribute> listTopProductFrist=productDAO.getTopProductsWithFirstAttribute();
+                    request.setAttribute("listTopProductFrist",listTopProductFrist);
+                    request.getRequestDispatcher("LoadAutomaker").forward(request,response);
+                }catch (Exception ex){
+
+>>>>>>> HieuNT
                 }
         }
 
