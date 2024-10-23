@@ -7,4 +7,5 @@ import java.util.ArrayList;
 public interface ICustomer {
     ArrayList<Customer> getAllCustomer();
     Customer getCustomerByEmail(String email);
+
 }

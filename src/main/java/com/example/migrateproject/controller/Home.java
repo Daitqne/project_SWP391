@@ -59,14 +59,17 @@ public class Home extends HttpServlet {
                 }
                 break;
             case 3:
-//                try {
-//                    CustomerDAO customerDAO=new CustomerDAO();
-//                    ArrayList<Customer> listCustomer=customerDAO.getAllCustomer();
-//                    request.setAttribute("listCustomer",listCustomer);
-//                    request.getRequestDispatcher("/hondaotog3.com/accountList.jsp").forward(request, response);
-//                }catch (Exception ex){
-//                    request.getRequestDispatcher("/hondaotog3.com/login.jsp").forward(request, response);
-//                }
+                try{
+                    AutomakerDAO dao= new AutomakerDAO();
+                    ProductDAO productDAO=new ProductDAO();
+                    ArrayList<Automaker> listAutomaker = dao.getAllAutomaker();
+                    request.setAttribute("listAutomaker",listAutomaker);
+                    ArrayList<GetTopProductsWithFirstAttribute> listTopProductFrist=productDAO.getTopProductsWithFirstAttribute();
+                    request.setAttribute("listTopProductFrist",listTopProductFrist);
+                    request.getRequestDispatcher("LoadAutomaker").forward(request,response);
+                }catch (Exception ex){
+
+                }
         }
 
     }

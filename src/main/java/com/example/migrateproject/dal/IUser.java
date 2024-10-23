@@ -14,4 +14,5 @@ import com.example.migrateproject.model.User;
 public interface IUser {
     User getUserLogin(String userName,String password);
     ArrayList<User> getAll();
+    boolean UpdateUser(String password,int user_id);
 }

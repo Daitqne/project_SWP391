@@ -6,6 +6,8 @@ package com.example.migrateproject.dao;
 
 import com.example.migrateproject.dal.IUser;
 import com.example.migrateproject.model.User;
+
+import java.sql.PreparedStatement;
 import java.util.ArrayList;
 import java.sql.CallableStatement;
 import java.sql.ResultSet;
@@ -44,5 +46,21 @@ public class UserDAO extends DBContext implements IUser {
     @Override
     public ArrayList<User> getAll() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public boolean UpdateUser(String password, int user_id) {
+        try{
+            String query="update [dbo].[User]\n" +
+                    "set password=?\n" +
+                    "where user_id=?";
+            PreparedStatement ps=connection.prepareStatement(query);
+            ps.setString(1,password);
+            ps.setInt(2,user_id);
+            return ps.executeUpdate()>0;
+        }catch (Exception ex){
+
+        }
+        return false;
     }
 }

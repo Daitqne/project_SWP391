@@ -56,7 +56,7 @@ public class Validate {
     }
 
     public static void main(String[] args) {
-        System.out.println(generateRandomString(8));
+        System.out.println(getEncryptString(generateRandomString(8)));
 
     }
 }
