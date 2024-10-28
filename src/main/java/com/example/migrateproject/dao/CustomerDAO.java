@@ -59,10 +59,33 @@ public class CustomerDAO extends DBContext implements ICustomer {
         return customer;
     }
 
+    @Override
+    public Customer getCustomerByUser_id(int user_id) {
+        Customer c=null;
+        try{
+            String query="select *from Customer where user_id=?";
+            PreparedStatement ps=connection.prepareStatement(query);
+            ps.setInt(1,user_id);
+            ResultSet rs=ps.executeQuery();
+            while(rs.next()){
+                c=new Customer(rs.getInt("customer_id"),
+                        rs.getInt("user_id"),
+                        rs.getString("first_name"),
+                        rs.getString("last_name"),
+                        rs.getString("phone"),rs.getString("email"),
+                        rs.getString("address"),
+                        rs.getDate("created_at"));
+            }
+        }catch (Exception ex){
+
+        }
+        return c;
+    }
+
     public static void main(String[] args) {
         CustomerDAO dao=new CustomerDAO();
         ArrayList<Customer> lilst=dao.getAllCustomer();
-        Customer cc=dao.getCustomerByEmail("hieunthe171211@gmail.com");
+        Customer cc=dao.getCustomerByUser_id(3);
         for(Customer c:lilst){
             System.out.println(c.getCustomer_id());
         }

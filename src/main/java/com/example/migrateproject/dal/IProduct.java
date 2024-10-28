@@ -22,4 +22,5 @@ public interface IProduct {
     ArrayList<Product> phanTrang(int automaker_id,int indexSearch);
     List<Product> getProductPaginationByAutoMakerId(int automaker_id, int offset, int noOfRecords, String orderBy);
     int getTotalRecordsProductByAutoMakerId(int automaker_id);
+    Product getProductByProductID(int product_id);
 }

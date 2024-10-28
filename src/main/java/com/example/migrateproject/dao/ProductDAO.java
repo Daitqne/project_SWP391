@@ -330,11 +330,38 @@ public class ProductDAO extends DBContext implements IProduct {
         return totalRecords;
     }
 
+    @Override
+    public Product getProductByProductID(int product_id) {
+        Product p=null;
+        try{
+            String query="select *from Product where product_id=?";
+            PreparedStatement ps=connection.prepareStatement(query);
+            ps.setInt(1,product_id);
+            ResultSet rs=ps.executeQuery();
+            while(rs.next()){
+                p=new Product();
+                p.setProductId(rs.getInt("product_id"));
+                p.setProductName(rs.getString("product_name"));
+                p.setRegionId(rs.getInt("region_id"));
+                p.setAutomakerId(rs.getInt("automaker_id"));
+                p.setQuantity(rs.getInt("quantity"));
+                p.setLinkVideo(rs.getString("product_img"));
+                p.setPrice(rs.getFloat("price"));
+                p.setDescription(rs.getString("desciption"));
+            }
+        }catch (Exception ex){
+
+        }
+        return p;
+    }
+
     public static void main(String[] args) {
         ProductDAO dao=new ProductDAO();
         ArrayList<Product> list=dao.getTop4HondaCity();
+        Product p=dao.getProductByProductID(4);
         for(Product g:list){
             System.out.println(g.getProductName());
         }
+        System.out.println(p.getPrice());
     }
 }

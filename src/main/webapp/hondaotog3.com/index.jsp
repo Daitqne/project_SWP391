@@ -168,7 +168,7 @@
                              <c:forEach items="${listTopProductFrist}" var="productFrist">
                                 <div class="col-sm-4">
                                     <div class="product">
-                                        <div class="product-image"><a href="#"
+                                        <div class="product-image"><a href="ProductItemServlet?productId=${productFrist.productId}"
                                                                       title=${productFrist.productName}><img
                                                 alt="Honda City Sensing" class="img-responsive lazyload"
                                                 src=${productFrist.attributeImg}

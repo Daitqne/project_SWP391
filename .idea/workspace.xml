@@ -5,96 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f69b1d9d-4d88-414d-afb0-92bf46ae183d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/ProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/updateAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/InfoProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Attribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/CarColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CustomerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/dataTables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/dataTables/dataTables.responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/css/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/img/favicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/dataTables/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/dataTables/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/flot/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/morris-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/js/script-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/blank.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/flot.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/forms.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/grid.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/headerDoc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/headerNgang.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/icons.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/morris.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/notifications.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/panels-wells.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/tables.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/pages/typography.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/TestDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/requestPassWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/controller/requestPassWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/ICustomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dal/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/CustomerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/migrateproject/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/img/favicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a1-rhvrue1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a10-9uv2ufa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a11-b76kufc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a12-25tfufb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a13-933gufd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a2-rc5lue2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a3-rxw9ue3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a4-r46iue4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a5-bs9jue5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a6-rhanue6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a7-29hrue7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a8-rhxkue8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/an-toan-cua-honda-city-2023-a9-95slue9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-1-2i5vk8d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-10-rcc1k8m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-11-o6mtk8n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-12-rqz3k8o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-13-b6rpk8p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-14-ou51k8q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-15-b18nk8r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-16-ot86k8s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-2-oeick8e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-3-o9kck8f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-4-948rk8g.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-5-beusk8h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-6-bweek8i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-7-o02ck8j.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-8-rpm7k8k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-1-5l-turbo-2020-9-2rsfk8l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-accord-om6wk2f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-brv-1-o0zmt81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cdn.gianhangvn.com/image/honda-brv-3-b69it9i.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/honda.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/phan-biet-sinh-menh-va-cung-menh-nen-chon-mau-xe-o-to-theo-yeu-to-nao-86002u.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/updateAccount.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/hondaotog3.com/san-pham.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/Status/StatusLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Home.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoadAutomaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/Logout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/controller/ProductSeverlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IAutomaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dal/IUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/AutomakerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/ProductDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Automaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/LoginResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/ReturnData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/migrateproject/validate/Validate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/GetTopProductsWithFirstAttribute.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +77,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Add new Servlet" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Add new Servlet" />
       </list>
     </option>
   </component>
@@ -116,6 +89,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -356,9 +334,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Validate" />
         <item itemvalue="Application.CustomerDAO" />
         <item itemvalue="Application.ProductDAO" />
+        <item itemvalue="Application.Validate" />
         <item itemvalue="Application.BankDAO" />
         <item itemvalue="Application.AutomakerDAO" />
       </list>

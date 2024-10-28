@@ -247,7 +247,7 @@
                                 <label data-lang="detailproduct_totalmoney">Tổng tiền :</label>
                                 <span class="product-price"><span data-field="totalPrice">${product.price}</span> đ</span>
                             </p>
-                            <a class="btn btn-default buynow" href="javascript:void(0);" data-lang="detailproduct_btnbuy">MUA NGAY</a>
+                            <a class="btn btn-default buynow" href="../TestDriver-servlet?product_id=${product.productId}" data-lang="detailproduct_btnbuy">MUA NGAY</a>
                             <a class="btn btn-default addcart" href="javascript:void(0);" data-lang="detailproduct_btnadd">THÊM VÀO GIỎ HÀNG</a>
                         </div>
                         <div class="product-hotline">

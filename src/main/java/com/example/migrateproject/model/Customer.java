@@ -23,6 +23,9 @@ public class Customer {
         this.create_at = create_at;
     }
 
+    public Customer() {
+    }
+
     public int getCustomer_id() {
         return customer_id;
     }
